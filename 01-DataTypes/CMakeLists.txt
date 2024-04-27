@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.16.3)
+project(DataTypes CXX)
+enable_testing()
+add_subdirectory(src bin)
+add_subdirectory(test)
