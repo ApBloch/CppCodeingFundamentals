@@ -866,7 +866,9 @@ WARN_LOGFILE           =
 
 INPUT                  = ./README.md \
                          ./01-DataTypes/README.md \  
-                         ./01-DataTypes/src
+                         ./01-DataTypes/src \
+                         ./02-UsingClassObj/src \
+                         ./02-UsingClassObj/README.md \
 
 # This tag can be used to specify the character encoding of the source files
 # that doxygen parses. Internally doxygen uses the UTF-8 encoding. Doxygen uses
