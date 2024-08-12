@@ -66,8 +66,5 @@
         "cinttypes": "cpp",
         "typeindex": "cpp",
         "typeinfo": "cpp"
-    },
-    "files.exclue":{
-        ".secretAnswers":true
     }
 }

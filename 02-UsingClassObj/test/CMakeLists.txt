@@ -1,7 +1,7 @@
 add_executable(unit_tests
                unit_tests.cpp
                tests.cpp
-               UsingClassObjAnswer.cpp.o)
+               UsingClassObjAnswer.cpp)
 target_link_libraries(unit_tests PRIVATE motor)
 
 add_test(NAME ConstructRedMotor COMMAND unit_tests 1)

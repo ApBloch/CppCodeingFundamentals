@@ -66,6 +66,7 @@ void spinMotorForEncoderCounts_answer(MotorV5* rtn, int encoderCounts){
     int voltage = 100;  //use this voltage
     MotorV5 myMotor(1);
 
+    myMotor.tare_position();
     myMotor.move(voltage);
     while(myMotor.get_position() < encoderCounts){
         myMotor.update(timeDelta);
