@@ -1,7 +1,7 @@
 #include "DataTypes.h"
 
 int multiplyInts(int a, int b){
-    int answer = a * b;
+    int answer = a * a;
     return answer;
 }
 
